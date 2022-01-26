@@ -1,0 +1,20 @@
+==1006465== Memcheck, a memory error detector
+==1006465== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==1006465== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==1006465== Command: timeout 1 cat tests-tmp/dictionary
+==1006465== 
+==1006465== 
+==1006465== HEAP SUMMARY:
+==1006465==     in use at exit: 8 bytes in 1 blocks
+==1006465==   total heap usage: 31 allocs, 30 frees, 4,073 bytes allocated
+==1006465== 
+==1006465== LEAK SUMMARY:
+==1006465==    definitely lost: 8 bytes in 1 blocks
+==1006465==    indirectly lost: 0 bytes in 0 blocks
+==1006465==      possibly lost: 0 bytes in 0 blocks
+==1006465==    still reachable: 0 bytes in 0 blocks
+==1006465==         suppressed: 0 bytes in 0 blocks
+==1006465== Rerun with --leak-check=full to see details of leaked memory
+==1006465== 
+==1006465== For lists of detected and suppressed errors, rerun with: -s
+==1006465== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
